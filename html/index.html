@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pl">
 
 <head>
   <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Włóczkowo</title>
   <meta name="description" content="Moje włóczki" />
@@ -21,7 +21,7 @@
 <header>
   <div class="logo"><a href="index.html">Włóczkowo</a></div>
 
-  <nav>
+  <nav id="navbar">
     <ul>
       <li><a href="#">News</a></li>
       <li><a href="#">My works</a></li>
@@ -31,16 +31,23 @@
 </header>
 
 <main>
-  <article class="container">
-
-  </article>
+  <div class="container">
+    <div class="col">
+      <div class="card">
+        <figure>
+          <img src="../img/fibers/fiber-1.jpg" alt="Włóczka-1">
+          <figcaption></figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
 </main>
 
 <footer>
   <div class="container">
     <div class="row">
 
-      <div class="col">
+      <div class="col-sm-6 col-md-4 col-lg-3">
         <h1>About creator</h1>
         <p>
           Full of passion Computer Science Student with analytical mindset.
@@ -49,12 +56,12 @@
         </p>
       </div>
 
-      <div class="col">
+      <div class="col-sm-6 col-md-4 col-lg-3">
         <h1>Other projects</h1>
         <p><strong><a href="https://scheduler-kamilcinner.herokuapp.com/about/">Scheduler</a></strong></p>
       </div>
 
-      <div class="col">
+      <div class="col-sm-6 col-md-4 col-lg-3">
         <h1>Socials</h1>
 
         <a class="icon-text-combo" href="https://www.linkedin.com/in/kamil-cinner-909b98196">
@@ -74,7 +81,7 @@
 
       </div>
 
-      <div class="col">
+      <div class="col-sm-6 col-md-4 col-lg-3">
         <h1>See also</h1>
         <a class="icon-text-combo" href="https://www.instagram.com/wloczkowo/">
           <i class="icon-instagram"></i>
@@ -93,6 +100,8 @@
 
   </div>
 </footer>
-</body>
 
+<script src="../js/sticky-nav.js"></script>
+
+</body>
 </html>

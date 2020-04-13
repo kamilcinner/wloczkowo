@@ -15,12 +15,12 @@ footer h1 {
     margin-bottom: 10px;
 }
 
-footer .col {
+footer .row > div {
     padding: 20px 0;
 }
 
-footer .col p,
-footer .col .icon-text-combo {
+footer .row > div p,
+footer .row > div .icon-text-combo {
     margin-right: 10px;
     /*text-align: justify;*/
     /*text-justify: inter-word;*/
