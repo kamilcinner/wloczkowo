@@ -8,14 +8,11 @@ nav ul {
     line-height: 200%;
 }
 
-nav ul > li {
+nav ul li {
     display: inline-block;
     padding: 0 20px;
     border-right: 1px dashed #440336;
+    width: 100px;
 }
 
-nav ul > li:first-child { border-left: 1px dashed #440336; }
-
-nav a { color: #440336; }
-
-nav a:hover { color: #d40eaa; }
+nav ul li:first-child { border-left: 1px dashed #440336; }

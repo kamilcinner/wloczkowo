@@ -8,7 +8,7 @@ footer * {
 }
 
 footer strong {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 footer h1 {
@@ -19,17 +19,23 @@ footer .col {
     padding: 20px 0;
 }
 
+footer .col p,
+footer .col .icon-text-combo {
+    margin-right: 10px;
+    /*text-align: justify;*/
+    /*text-justify: inter-word;*/
+}
+
 footer .icon-text-combo  {
     display: flex;
 }
 
 footer .icon-text-combo strong {
-    margin-top: 6px;
+    margin-top: 10px;
 }
 
 footer hr {
     border: solid 1px #440336;
-    border-radius: 10px;
 }
 
 footer .info {
