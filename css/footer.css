@@ -47,3 +47,7 @@ footer .info {
 footer .info > p {
     margin-bottom: 10px;
 }
+
+footer a:hover {
+    color: #d40eaa;
+}

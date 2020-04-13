@@ -26,6 +26,10 @@ nav a {
     padding: 0 20px;
 }
 
+nav a:hover {
+    color: #d40eaa;
+}
+
 nav li:hover {
     background-color: #e2d0df;
 }

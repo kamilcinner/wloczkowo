@@ -1,10 +1,13 @@
 @import "normalize-links.css";
+@import "card.css";
 
 @import "logo.css";
 @import "top-nav.css";
 @import "footer.css";
 
 @import "be-responsive.css";
+
+@import "fibers.css";
 
 body {
 	/* Background pattern from Toptal Subtle Patterns */
@@ -19,8 +22,5 @@ body {
 
 main {
 	min-height: 1000px;
-}
-
-img {
-	max-width: 100px;
+	margin: 20px 0;
 }
