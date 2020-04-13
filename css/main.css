@@ -1,0 +1,23 @@
+@import "logo.css";
+@import "top-nav.css";
+@import "footer.css";
+
+@import "clean_links.css";
+
+body {
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url("../img/bg/full-bloom.png");
+
+	margin: 0;
+	font-family: 'Farsan', cursive;
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #440336;
+}
+
+/* main */
+#content {
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 500px;
+}
