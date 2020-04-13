@@ -11,3 +11,7 @@ a:hover {
 a:active {
     color: #440336;
 }
+
+[role="button"] {
+    cursor: pointer;
+}

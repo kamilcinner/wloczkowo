@@ -10,8 +10,10 @@
   <meta name="keywords" content="blog, włóczki, sznurek" />
   <meta name="author" content="Kamil Cinner">
 
-  <link href="https://fonts.googleapis.com/css?family=Akronim&display=swap&subset=latin-ext" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Farsan&display=swap&subset=latin-ext" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Akronim&display=swap&subset=latin-ext"
+        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Farsan&display=swap&subset=latin-ext"
+        rel="stylesheet">
 
   <link rel="stylesheet" href="../fontello/css/fontello.css">
   <link rel="stylesheet" href="../css/main.css">
@@ -23,20 +25,16 @@
 
   <nav id="navbar">
     <ul>
-      <li><a href="#">News</a></li>
-      <li><a href="#">My works</a></li>
-      <li><a href="#">Contact me</a></li>
+      <li><a id="news" role="button">News</a></li>
+      <li><a id="my-works" role="button">My works</a></li>
+      <li><a id="contact-me" role="button">Contact me</a></li>
     </ul>
   </nav>
 </header>
 
 <main>
-  <div class="container">
-    <div id="fibers" class="row">
+  <div id="content" class="container">
 
-        <script src="../js/load-fibers.js"></script>
-
-    </div>
   </div>
 </main>
 
@@ -48,20 +46,23 @@
         <h1>About creator</h1>
         <p>
           Full of passion Computer Science Student with analytical mindset.
-          Always wanting to explain more difficult subjects to academic colleagues and open to the comments of others.
+          Always wanting to explain more difficult subjects to academic colleagues
+          and open to the comments of others.
           Currently learning new technologies related to web development.
         </p>
       </div>
 
       <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
         <h1>Other projects</h1>
-        <p><strong><a href="https://scheduler-kamilcinner.herokuapp.com/about/" target="_blank">Scheduler</a></strong></p>
+        <p><strong><a href="https://scheduler-kamilcinner.herokuapp.com/about/"
+                      target="_blank">Scheduler</a></strong></p>
       </div>
 
       <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
         <h1>Socials</h1>
 
-        <a class="icon-text-combo" href="https://www.linkedin.com/in/kamil-cinner-909b98196" target="_blank">
+        <a class="icon-text-combo" href="https://www.linkedin.com/in/kamil-cinner-909b98196"
+           target="_blank">
           <i class="icon-linkedin-squared"></i>
           <strong class="my-1">Kamil Cinner</strong>
         </a>
@@ -71,7 +72,8 @@
           <strong class="my-1">github.com/kamilcinner</strong>
         </a>
 
-        <a class="icon-text-combo" href="https://www.instagram.com/artemka00010011" target="_blank">
+        <a class="icon-text-combo" href="https://www.instagram.com/artemka00010011"
+           target="_blank">
           <i class="icon-instagram"></i>
           <strong class="my-1">artemka00010011</strong>
         </a>
@@ -80,7 +82,8 @@
 
       <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
         <h1>See also</h1>
-        <a class="icon-text-combo" href="https://www.instagram.com/wloczkowo/" target="_blank">
+        <a class="icon-text-combo" href="https://www.instagram.com/wloczkowo/"
+           target="_blank">
           <i class="icon-instagram"></i>
           <strong class="my-1">wloczkowo</strong>
         </a>
@@ -99,6 +102,9 @@
 </footer>
 
 <script src="../js/sticky-nav.js"></script>
+<script src="../js/news.js"></script>
+<script src="../js/my-works.js"></script>
+<script src="../js/contact-me.js"></script>
 
 </body>
 </html>
