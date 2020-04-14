@@ -1,6 +1,3 @@
-import {FIBERS} from "./assets.js";
-import {fiberDetails} from "./fiber-details.js";
-
 function myWorks() {
     const content = document.getElementById("content");
     var fibers = '';

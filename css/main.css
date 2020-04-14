@@ -12,6 +12,8 @@
 @import "posts.css";
 @import "fibers.css";
 @import "form.css";
+@import "fiber-details.css";
+@import "welcome.css";
 
 body {
 	/* Background pattern from Toptal Subtle Patterns */

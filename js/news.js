@@ -1,6 +1,3 @@
-import {FIBERS} from "./assets.js";
-import {fiberDetails} from "./fiber-details.js";
-
 function news() {
     var content = document.getElementById('content');
     var posts = '';
