@@ -3,34 +3,24 @@ nav {
     text-align: center;
     font-size: 25px;
     line-height: 200%;
-}
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
+    overflow: hidden;
     padding: 0 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* For mobile safe */
+    flex-wrap: wrap;
 }
-
-nav ul li {
-    border-right: 1px dashed #440336;
-}
-
-nav ul li:first-child { border-left: 1px dashed #440336; }
 
 nav a {
     display: block;
-    width: 100px;
-    padding: 0 20px;
+    /*width: 100px;*/
+    padding: 0 10px;
 }
 
 nav a:hover {
     color: #d40eaa;
-}
-
-nav li:hover {
     background-color: #e2d0df;
 }
 
@@ -38,4 +28,7 @@ nav li:hover {
     width: 100%;
     position: fixed;
     top: 0;
+    border-bottom: 1px solid #440336;
+    /* To keep menu on top */
+    z-index: 1;
 }
