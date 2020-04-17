@@ -1,2 +1,2 @@
 # wloczkowo
-Włóczkowo responsive website pure HTML5 and CSS3 with a little bit of JS for sticky menu and content changing.
+Simple and aesthetic responsive website created with pure HTML and CSS with a little bit of JS for sticky menu and content changing.
